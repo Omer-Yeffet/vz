@@ -1,0 +1,9 @@
+window.__uspapi('getUSPData', 1 , (uspData, success) => {
+if(success) {
+// do something with uspData
+console.log(uspData);
+} else {
+// do something else
+}
+return success
+});
